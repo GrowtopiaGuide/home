@@ -7,6 +7,17 @@
   padding-top: 5px;
 }
 
+.topnav a:hover {
+    background-color: #DACFCF;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #79E426;
+    color: white;
+}
+
 .topnav a {
   float: left;
   color: #000000;
